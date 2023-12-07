@@ -1,0 +1,185 @@
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2'); 
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2'); 
+}
+
+:root {
+    --color-brand-dark: #011C44;
+    --color-brand-light: #2B7FFF;
+    --color-primary-dark: #000000;
+    --color-primary-light: #FFFFFF;
+    --color-secondary-dark: #4A4A4A;
+    --color-secondary-light: #747272;
+}
+
+body {
+    color: var(--color-brand-dark);
+    font-family:Roboto;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Header */
+.navigation-header {
+    color: var(--color-brand-dark);
+}
+
+.navigation-header:hover {
+    color: var(--color-brand-light);
+    font-weight: 700;
+}
+
+/* Button */
+.button {
+    color: var(--color-primary-light);
+    border-radius: 32px;
+    background-color: var(--color-brand-light);
+    border: var(--color-brand-light);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.button:hover {
+    color: var(--color-brand-dark);
+    border: 2px solid var(--color-brand-light); 
+    background-color: transparent;
+}
+
+/* links */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--color-brand-light);
+    font-family: Play;
+    font-size: 140px;
+    line-height: 0.81;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family: Play;
+    font-size: 64px;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Accents */
+.accent {
+    color: var(--color-brand-light);
+}
+
+.accent-capitalize {
+    color: var(--color-brand-light);
+    text-transform: capitalize;
+}
+
+/* Action call section */
+.action-call {
+    color: var(--color-secondary-dark);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* About us section */
+
+.description {
+    font-size: 22px;
+    line-height: 1.73;
+}
+
+.description .bold-font {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/* Advantages section */
+.advantages {
+    color: var(--color-primary-dark);
+    text-align: center;
+    line-height: 1.33;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Services section */
+h4 {
+    color: var(--color-primary-light);
+    font-size: 22px;
+    line-height: 1.18;
+}
+
+/* Contacts section */
+.form-text {
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.warning {
+    color: var(--color-secondary-light);
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.politics {
+    color: var(--color-secondary-light);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer-links {
+    color: var(--color-primary-light);
+    font-size: 16px;
+}
+
+.footer-links:hover {
+    color: var(--color-brand-light);
+}
+
+.copyright {
+    color: var(--color-secondary-light);
+    font-size: 13px;
+}
